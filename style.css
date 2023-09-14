@@ -1,0 +1,529 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.unorder-list{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    margin-right: 80px;
+}
+li{
+    list-style-type: none;
+}
+li > a{
+    text-decoration: none;
+    color: rgb(62, 26, 192);
+    margin-right: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 13px;
+}
+.navbar{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.logo{
+    margin-left: 100px;
+    color: palevioletred;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.logo>span{
+    color: rgb(62, 26, 192);
+}
+.container1{
+    background: white;
+    width: 100%;
+    height: 350px;
+}
+.container2{
+    background: rgb(244, 103, 150);
+    width: 100%;
+    height: 500px;
+}
+.container3{
+    background: white;
+    width: 100%;
+    height: 500px;
+}
+.container4{
+    background: white;
+    width: 100%;
+    height: 700px;
+}
+.container5{
+    background: white;
+    width: 100%;
+    height: 500px;
+}
+.main>h1{
+    font-size: 12px;
+    margin: 94px 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.main>h1>span{
+    color: rgb(244, 103, 150);
+}
+.main>h2{
+    margin: -69px 100px;
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.main>p{
+    margin: 94px 101px;
+    font-size: small;
+}
+.main>button{
+    background: rgb(166, 0, 255);
+    color: white;
+    width: 7%;
+    height: 35px;
+    display: flex;
+    margin-top: -60px;
+    margin-left: 120px;
+    font-size: 11px;
+    border-radius: 20px;
+    border: none;
+    padding: 12px;
+    padding-left: 31px;
+    cursor: pointer;
+}
+.main>button2{
+    margin-left: 250px;
+    font-size: 11px;
+    margin-top: -23px;
+    display: flex;
+    cursor: pointer;
+    color: rgb(62, 26, 192);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.right{
+    border: solid rgb(62, 26, 192);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 5px;
+    transform: rotate(-45deg);
+    margin-left: 15px;
+}
+.detail{
+    width: 400px;
+    height: 400px;
+    background: rgb(247, 136, 173);
+    position: absolute;
+    top: 76px;
+    left: 990px;
+    border-radius: 40rem;
+}
+.image{
+    background-image: url(man-png-30099.png);
+    height:60vh;
+    background-size: cover;
+    margin-top: 22px; 
+}
+.about>h1{
+    font-size: 11px;
+    margin-left: 50px;
+    padding: 90px;
+    color: rgb(247, 240, 240);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.about>h2{
+    margin: -62px 141px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.about>p{
+    margin: 92px 141px;
+    font-size: small;
+    color: rgb(228, 216, 216);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.about>button{
+    background: transparent;
+    color: white;
+    border: none;
+    font-size: 11px;
+    display: flex;
+    margin-top: -21px;
+    margin-left: 140px;
+    cursor: pointer;
+}
+.left{
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-45deg);
+    margin-left: 5px;
+    margin-top: 1.5px;
+}
+.about2>h1{
+    margin-top: -244px; 
+    margin-left: 1070px; 
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.about2>p{
+    margin-top: 29px;
+    margin-left: 1070px;
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(226, 212, 212);
+}
+.about2>h2{
+    margin-top: 29px;
+    font-size: 14px;
+    margin-left: 1070px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.info>h1{
+    margin-left: 620px;
+    padding: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.info>h2{
+    margin-left: 630px;
+    margin-top: -80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+}
+.info1{
+    width: 240px;
+    height: 220px;
+    background: rgb(244, 103, 150);
+    position: absolute;
+    left: 360px;
+    margin-top: 60px;
+}
+.info1>h1{
+    font-size: 18px;
+    margin: 20px 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.info1>p{
+    color: rgb(239, 232, 232);
+    font-size: 13px;
+    margin-left: 22px;
+}
+.info1>button{
+    background: transparent;
+    color: white;
+    border: none;
+    font-size: 11px;
+    display: flex;
+    margin-top: 40px;
+    margin-left: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.up{
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-45deg);
+    margin-left: 5px;
+    margin-top: 3.5px;
+}
+.info2{
+    width: 240px;
+    height: 220px;
+    background: transparent;
+    border: 2px solid rgb(240, 238, 238);
+    position: absolute;
+    margin-top: 60px;
+    left: 630px;
+}
+.info2>h1{
+    font-size: 20px;
+    margin: 19px 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.info2>p{
+    color: rgb(62, 26, 192);
+    font-size: 13px;
+    margin-left: 22px;
+}
+.info2>button{
+    background: transparent;
+    color: rgb(62, 26, 192);
+    border: none;
+    font-size: 11px;
+    display: flex;
+    margin-top: 40px;
+    margin-left: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.right1{
+    border: solid rgb(62, 26, 192);
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-45deg);
+    margin-left: 5px;
+    margin-top: 3.5px;
+}
+.info3{
+    width: 240px;
+    height: 220px;
+    background: transparent;
+    border: 2px solid rgb(240, 238, 238);
+    position: absolute;
+    margin-top: 60px;
+    left: 905px;
+}
+.info3>h1{
+    font-size: 20px;
+    margin: 19px 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.info3>p{
+    color: rgb(62, 26, 192);
+    font-size: 13px;
+    margin-left: 22px;
+}
+.info3>button{
+    background: transparent;
+    color: rgb(62, 26, 192);
+    border: none;
+    font-size: 11px;
+    display: flex;
+    margin-top: 40px;
+    margin-left: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.right2{
+    border: solid rgb(62, 26, 192);
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-45deg);
+    margin-left: 5px;
+    margin-top: 3.5px;
+}
+.recent>h1{
+    margin-left: 620px;
+    padding: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.recent>h2{
+    margin-left: 607px;
+    margin-top: -80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+}
+.recent>h3{
+    margin-left: 580px;
+    margin-top: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgb(62, 26, 192);
+}
+.recent>h4{
+    margin-left: 660px;
+    margin-top: -17.5px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(62, 26, 192);
+}
+.recent>h5{
+    margin-left: 800px;
+    margin-top: -16px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(62, 26, 192);
+}
+.recent>h6{
+    margin-left: 905px;
+    margin-top: -17.5px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(62, 26, 192);
+}
+.recent1{
+    width: 200px;
+    height: 180px;
+    background: green;
+    margin-left: 420px;
+    margin-top: 50px;
+}
+.recent2{
+    width: 200px;
+    height: 180px;
+    background: red;
+    margin-left: 650px;
+    margin-top: -179px;
+}
+.recent3{
+    width: 200px;
+    height: 180px;
+    background: blue;
+    margin-left: 880px;
+    margin-top: -180px;
+}
+.recent4{
+    width: 200px;
+    height: 180px;
+    background: yellow;
+    margin-left: 420px;
+    margin-top: 28px;
+}
+.recent5{
+    width: 200px;
+    height: 180px;
+    background: black;
+    margin-left: 650px;
+    margin-top: -180px;
+}
+.recent6{
+    width: 200px;
+    height: 180px;
+    background: purple;
+    margin-left: 880px;
+    margin-top: -180px;
+}
+.comment>h1{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.comment>h2{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 100px;
+    margin-top: 20px;
+    color: black;
+}
+.comment>p{
+    font-size: 14px;
+    color: rgb(62, 26, 192);
+    margin-left: 100px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cmt{
+    width: 130px;
+    height: 130px;
+    background: url(images.jpg);
+    background-size: cover;
+    margin-left: 450px;
+    margin-top: -250px;
+}
+.Left{
+    border: solid rgb(62, 26, 192);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 5px;
+    transform: rotate(-225deg);
+    margin-left: 135px;
+    margin-top: 75px;
+}
+.comment>button{
+    background: rgb(15, 15, 117);
+    width: 32px;
+    height: 32px;
+    border: none;
+    font-size: 11px;
+    display: flex;
+    margin-top: -26px;
+    margin-left: 195px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Right{
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 5px;
+    transform: rotate(-45deg);
+    margin-left: 7px;
+    margin-top: 9px;
+}
+p{
+    font-size: 12px;
+    margin-left: 460px;
+    margin-top: 30px;
+    color: rgb(62, 26, 192);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 460px;
+    margin-top: 32px;
+}
+h2{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 460px;
+    margin-top: 14px;
+    color: rgb(15, 15, 117);
+}
+.cmt2{
+    width: 130px;
+    height: 130px;
+    background: url(images\ \(1\).jpg);
+    background-size: cover;
+    margin-left: 700px;
+    margin-top: -307px;
+}
+p2{
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    margin-left: 70px;
+    margin-top: 30px;
+    color: rgb(62, 26, 192);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 698px;
+    margin-top: 32px;
+}
+h4{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 698px;
+    margin-top: 14px;
+    color: rgb(15, 15, 117);
+}
+.cmt3{
+    width: 130px;
+    height: 130px;
+    background: url(download.jpg);
+    background-size: cover;
+    margin-left: 949px;
+    margin-top: -304px;
+}
+p3{
+    display: flex;
+    font-size: 12px;
+    justify-content: center;
+    margin-left: 555px;
+    margin-top: 27px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(15, 15, 117);
+}
+h5{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 948px;
+    margin-top: 32px;
+    color: black;
+}
+h6{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 948px;
+    margin-top: 14px;
+    color: rgb(15, 15, 117);
+}
